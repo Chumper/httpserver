@@ -88,6 +88,7 @@ Limitations:
 1. Etag implementation is not ready yet for distributed use as it uses the last modified time of files which can differ on different servers
 2. Server is always issuing strong etags
 3. MongoRepository only supports one host at the moment and uses a fixed database as well as no support for authentication
+4. I am not supporting HTTP/0.9
 
 # JAR and options
 
