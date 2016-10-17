@@ -182,8 +182,9 @@ Percentage of the requests served within a certain time (ms)
   99%      1
  100%     17 (longest request)
  ```
- ### Close
- ```bash
+
+### Close
+```bash
 ab -t2 -c8 http://localhost:8080/Users/n.plaschke                                                                                                                                ✓  9621  02:23:54
 This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
