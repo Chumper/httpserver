@@ -1,7 +1,5 @@
 package integration;
 
-import com.oracle.tools.packager.IOUtils;
-
 import org.apache.http.HttpResponse;
 import org.apache.http.client.fluent.Request;
 import org.apache.http.client.fluent.Response;
